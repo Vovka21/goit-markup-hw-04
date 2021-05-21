@@ -378,7 +378,7 @@ a {
 }
 
 .list-connection li + li {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .list-menu {
@@ -445,10 +445,26 @@ a {
 
 .link-menu {
   margin-left: 93px;
-  margin-right: 331px;
+  margin-right: 305px;
 }
 
 .portfolio {
   padding-bottom: 94px;
   padding-top: 94px;
+}
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+}
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+}
+
+.list-icon {
+  display: flex;
+  align-items: center;
+}
+.icon-envelope:hover {
+  background-color: red;
 }
