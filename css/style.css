@@ -120,7 +120,7 @@
 .filter {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+  /* margin-top: 94px; */
   margin-bottom: 50px;
 }
 
@@ -447,6 +447,8 @@ a {
   margin-left: 93px;
   margin-right: 331px;
 }
+
 .portfolio {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
