@@ -230,6 +230,14 @@ a {
   cursor: pointer;
   border-radius: 4px;
   border: none;
+  margin-top: 30px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: var(--font-style);
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
 .button:hover,
 .button:focus {
@@ -257,7 +265,7 @@ a {
   font-weight: 900;
   line-height: 1.4;
   letter-spacing: 0.06em;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   max-width: 696px;
   text-align: center;
   margin: 0 auto;
@@ -522,7 +530,8 @@ a {
   padding-top: 50px;
   padding-bottom: 94px;
 }
-.firms svg {
+.firms-icon {
+  display: block;
   width: 170px;
   height: 92px;
   padding: 16px 32px;
@@ -537,12 +546,12 @@ a {
 .clients {
   padding-top: 94px;
 }
-.firms-icon svg:hover {
+.firms-icon:hover {
   fill: var(--color-link);
   border: 1px solid var(--color-link);
 }
 
-.firms-icon svg:focus {
+.firms-icon:focus {
   fill: var(--color-link);
   border: 1px solid var(--color-link);
 }
