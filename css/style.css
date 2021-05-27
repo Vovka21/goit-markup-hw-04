@@ -289,17 +289,32 @@ a {
   line-height: 1.2;
   letter-spacing: 0.03em;
   padding-bottom: 10px;
+  margin-top: 30px;
 }
 .advantage {
   display: flex;
 }
+
+.advantage div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+
+.advantage li + li {
+  margin-left: 30px;
+}
+
 .advantage li {
   width: 270px;
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
-.advantage li:last-child {
+/* .advantage li:last-child {
   margin-right: 0;
-}
+} */
 /* Frame 1. Section 2 */
 .bg-team h2,
 .h2,
@@ -516,13 +531,13 @@ a {
 }
 
 /* Иконки преимущества */
-.advantage svg {
+/* .advantage svg {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
   padding: 25px 100px;
-}
+} */
 
 /* Постоянные клиенты */
 .firms {
@@ -671,4 +686,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1600px;
+}
+img {
+  display: block;
 }
